@@ -1,0 +1,27 @@
+[project]
+name = "octopus-deploy-mcp"
+version = "0.1.0"
+description = "Model Context Protocol server for Octopus Deploy integration"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+authors = [
+    { name = "Arman Nourifar" },
+]
+dependencies = [
+    "fastmcp==2.10.6",
+    "httpx==0.28.1",
+    "requests==2.32.4",
+    "cyclopts==3.22.3",
+]
+
+[project.scripts]
+octopus-deploy-mcp = "octopus_deploy_mcp.main:app"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "black>=23.0.0",
+    "flake8>=6.0.0",
+    "mypy>=1.0.0",
+]
