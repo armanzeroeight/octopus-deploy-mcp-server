@@ -15,7 +15,7 @@ A Model Context Protocol (MCP) server for interacting with Octopus Deploy. This 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/octopus-deploy-mcp.git
+git clone https://github.com/armanzeroeight/octopus-deploy-mcp-server.git
 cd octopus-deploy-mcp
 ```
 
